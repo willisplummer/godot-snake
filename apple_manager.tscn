@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c85n8pc7tw6x2"]
+
+[ext_resource type="Script" path="res://apple_manager.gd" id="1_1eimo"]
+[ext_resource type="PackedScene" uid="uid://c5frwavl57bds" path="res://apple.tscn" id="2_ysnxt"]
+
+[node name="AppleManager" type="Node"]
+script = ExtResource("1_1eimo")
+apple_scene = ExtResource("2_ysnxt")

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkbdeitwvhtui"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_x58jw"]
+[ext_resource type="PackedScene" uid="uid://bvff8kfsqoa2" path="res://player_square.tscn" id="2_dul8r"]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_x58jw")
+tile_size = null
+move_interval = null
+min_move_interval = null
+player_square_scene = ExtResource("2_dul8r")
+
+[node name="SquaresContainer" type="Node" parent="."]
+
+[node name="PlayerSquare" parent="SquaresContainer" instance=ExtResource("2_dul8r")]
